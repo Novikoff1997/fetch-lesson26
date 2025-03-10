@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(253, 253, 179);
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.success {
+  color: green;
+  font-size: 18px;
+  margin-top: 10px;
+}
+button {
+  height: 100px;
+  width: 200px;
+  background-color: #ff0898;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  transition: background-color, 0.4s;
+}
+
+button:hover {
+  background-color: #b20068;
+}
